@@ -1,0 +1,48 @@
+#pivotal-cards-pages .page {
+  width: 260mm;
+}
+
+#pivotal-cards-pages .page .card {
+  width: 230mm;
+  height: 168mm;
+  margin-bottom: 15.5mm;
+}
+
+#pivotal-cards-pages .page .card:nth-child(4) {
+/*  margin-bottom: 18.5mm;*/
+}
+
+#pivotal-cards-pages .page .side {
+  width: 230mm;
+  height: 145mm;
+}
+
+#pivotal-cards-pages .page .header .labels .label {
+  margin-right: 1mm;
+}
+
+#pivotal-cards-pages .page .middle {
+  width: 230mm;
+  height: 53mm;
+}
+
+#pivotal-cards-pages .page .footer {
+  float: none;
+  width: 100%;
+}
+
+#pivotal-cards-pages .page .footer .points {
+  display: block;
+  width: 100%;
+  text-align: right;
+  border-top: 1px solid #444;
+  padding-right: 7mm;
+}
+
+#pivotal-cards-pages .page .middle .story-title {
+  font-size: 48pt;
+}
+
+.page.backs {
+  display: none;
+}

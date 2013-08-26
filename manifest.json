@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trello Printer Beautifier",
+  "description": "Makes printed Trello cards better",
+  "version": "1.0",
+
+  "permissions": [
+    "http://yobriefca.se/trello-printer/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://yobriefca.se/trello-printer/*"],
+      "css": ["better-trello.css"],
+      "js": ["jquery.js", "better-trello.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
